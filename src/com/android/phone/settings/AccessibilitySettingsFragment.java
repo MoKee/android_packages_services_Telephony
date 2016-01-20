@@ -33,18 +33,20 @@ import android.util.Log;
 import com.android.ims.ImsManager;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneFactory;
+import com.android.phone.Constants;
 import com.android.phone.PhoneGlobals;
 import com.android.phone.R;
 import com.android.phone.settings.TtyModeListPreference;
 
 import java.util.List;
 
-public class AccessibilitySettingsFragment extends PreferenceFragment {
+public class AccessibilitySettingsFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
     private static final String LOG_TAG = AccessibilitySettingsFragment.class.getSimpleName();
     private static final boolean DBG = (PhoneGlobals.DBG_LEVEL >= 2);
 
     private static final String BUTTON_TTY_KEY = "button_tty_mode_key";
     private static final String BUTTON_HAC_KEY = "button_hac_key";
+    private static final String BUTTON_PROXIMITY_KEY = "button_proximity_key";
 
     private final PhoneStateListener mPhoneStateListener = new PhoneStateListener() {
         /**
@@ -71,6 +73,7 @@ public class AccessibilitySettingsFragment extends PreferenceFragment {
 
     private TtyModeListPreference mButtonTty;
     private CheckBoxPreference mButtonHac;
+    private CheckBoxPreference mButtonProximity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,6 +102,16 @@ public class AccessibilitySettingsFragment extends PreferenceFragment {
         } else {
             getPreferenceScreen().removePreference(mButtonHac);
             mButtonHac = null;
+        }
+
+        mButtonProximity = (CheckBoxPreference) findPreference(BUTTON_PROXIMITY_KEY);
+        if (mButtonProximity != null) {
+            mButtonProximity.setOnPreferenceChangeListener(this);
+            boolean checked = Settings.System.getInt(getContext().getContentResolver(),
+                    Constants.SETTINGS_PROXIMITY_SENSOR, 1) == 1;
+            mButtonProximity.setChecked(checked);
+            mButtonProximity.setSummary(checked ? R.string.proximity_on_summary
+                    : R.string.proximity_off_summary);
         }
     }
 
@@ -132,6 +145,26 @@ public class AccessibilitySettingsFragment extends PreferenceFragment {
             mAudioManager.setParameter(SettingsConstants.HAC_KEY,
                     hac == SettingsConstants.HAC_ENABLED
                             ? SettingsConstants.HAC_VAL_ON : SettingsConstants.HAC_VAL_OFF);
+            return true;
+        }
+        return false;
+    }
+
+     /**
+     * Handles changes to the preferences.
+     *
+     * @param pref The preference changed.
+     * @param objValue The changed value.
+     * @return True if the preference change has been handled, and false otherwise.
+     */
+    @Override
+    public boolean onPreferenceChange(Preference pref, Object objValue) {
+        if (pref == mButtonProximity) {
+            boolean checked = (Boolean) objValue;
+            Settings.System.putInt(getContext().getContentResolver(),
+                    Constants.SETTINGS_PROXIMITY_SENSOR, checked ? 1 : 0);
+            mButtonProximity.setSummary(checked ? R.string.proximity_on_summary
+                    : R.string.proximity_off_summary);
             return true;
         }
         return false;

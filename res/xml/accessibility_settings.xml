@@ -32,4 +32,11 @@
         android:persistent="true"
         android:summary="@string/hac_mode_summary"/>
 
+    <CheckBoxPreference
+        android:key="button_proximity_key"
+        android:title="@string/proximity_mode_title"
+        android:persistent="false"
+        android:summary="@string/proximity_on_summary"
+        android:order="1300" />
+
 </PreferenceScreen>
