@@ -356,8 +356,8 @@ public class NotificationMgr {
         }
 
         boolean notifProp = mApp.getResources().getBoolean(R.bool.sprint_mwi_quirk);
-        boolean notifOption = CMSettings.System.getInt(mApp.getContentResolver(),
-                CMSettings.System.ENABLE_MWI_NOTIFICATION, 0) == 1;
+        boolean notifOption = MKSettings.System.getInt(mApp.getContentResolver(),
+                MKSettings.System.ENABLE_MWI_NOTIFICATION, 0) == 1;
         if (notifProp && !notifOption) {
             // sprint_mwi_quirk is true, and ENABLE_MWI_NOTIFICATION is unchecked or unset (false)
             // hide the mwi, but log if we're debugging.
