@@ -168,7 +168,6 @@ public class PhoneGlobals extends ContextWrapper {
     // True if we are beginning a call, but the phone state has not changed yet
     private boolean mBeginningCall;
     private boolean mDataDisconnectedDueToRoaming = false;
-    private int roamingSlotId = -1;
 
     // Last phone state seen by updatePhoneState()
     private PhoneConstants.State mLastPhoneState = PhoneConstants.State.IDLE;
@@ -252,7 +251,7 @@ public class PhoneGlobals extends ContextWrapper {
                     break;
 
                 case EVENT_DATA_ROAMING_DISCONNECTED:
-                    notificationMgr.showDataDisconnectedRoaming(roamingSlotId);
+                    notificationMgr.showDataDisconnectedRoaming();
                     break;
 
                 case EVENT_DATA_ROAMING_OK:
@@ -809,8 +808,6 @@ public class PhoneGlobals extends ContextWrapper {
                         && Phone.REASON_ROAMING_ON.equals(
                             intent.getStringExtra(PhoneConstants.STATE_CHANGE_REASON_KEY));
                 if (mDataDisconnectedDueToRoaming != disconnectedDueToRoaming) {
-                    int defaultDataSubId = SubscriptionManager.getDefaultDataSubId();
-                    roamingSlotId = SubscriptionManager.getSlotId(defaultDataSubId);
                     mDataDisconnectedDueToRoaming = disconnectedDueToRoaming;
                     mHandler.sendEmptyMessage(disconnectedDueToRoaming
                             ? EVENT_DATA_ROAMING_DISCONNECTED : EVENT_DATA_ROAMING_OK);
