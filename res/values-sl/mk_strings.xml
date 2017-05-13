@@ -19,4 +19,5 @@
   <!-- Proximity Mode -->
   <string name="proximity_mode_title">Vključi senzor bližine</string>
   <string name="proximity_on_summary">Ko sprejmete klic, se bo zaslon ugasnil. Tako varčuje z energijo.</string>
+  <string name="proximity_off_summary">Ko sprejmete klic, se bo zaslon ugasnil. Tako varčuje z energijo.</string>
 </resources>
