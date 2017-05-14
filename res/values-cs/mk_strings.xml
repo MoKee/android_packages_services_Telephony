@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
+  <string name="proximity_mode_title">Zapnout senzor přiblížení</string>
+  <string name="proximity_on_summary">Po přijetí hovoru se obrazovka vypne, aby se šetřila energie.</string>
+  <string name="proximity_off_summary">Po přijetí hovoru se obrazovka vždy zapne.</string>
 </resources>
