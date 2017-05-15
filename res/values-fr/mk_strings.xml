@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
+  <string name="proximity_mode_title">Activer le capteur de proximité</string>
+  <string name="proximity_on_summary">Lorsque vous répondez à un appel, l\'écran s\'éteindra pour économiser de l\'énergie.</string>
+  <string name="proximity_off_summary">Lorsque vous répondez à un appel, l\'écran restera toujours activé.</string>
 </resources>
