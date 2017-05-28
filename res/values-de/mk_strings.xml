@@ -17,4 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
+  <string name="proximity_mode_title">Näherungssensor aktivieren</string>
+  <string name="proximity_on_summary">Wenn Sie einen Anruf annehmen, wird der Bildschirm ausgeschaltet werden, um Strom zu sparen.</string>
 </resources>
