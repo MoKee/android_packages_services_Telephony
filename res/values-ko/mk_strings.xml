@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
+  <string name="proximity_mode_title">근접 센서 켜기</string>
+  <string name="proximity_on_summary">전화를 받을 때, 전원을 절약 하기 위해 화면이 꺼질 예정입니다.</string>
+  <string name="proximity_off_summary">전화를 받을 때, 화면이 항상 켜져있을 예정입니다.</string>
 </resources>
