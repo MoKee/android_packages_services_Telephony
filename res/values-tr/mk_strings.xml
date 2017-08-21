@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
-  <string name="proximity_mode_title">Yakınlık sensörü açık</string>
-  <string name="proximity_on_summary">Aramaları cevapladığınızda ekran güç koruması için kapatılacak.</string>
-  <string name="proximity_off_summary">Aramaları yanıtladığınızda ekran kapatılacak.</string>
+  <string name="proximity_mode_title">Yakınlık sensörünü aç</string>
+  <string name="proximity_on_summary">Aramaları yanıtladınızda pil tasarrufu için ekran kapatılacak.</string>
+  <string name="proximity_off_summary">Aramaları yanıtladığınızda ekran açık kalacak.</string>
 </resources>
