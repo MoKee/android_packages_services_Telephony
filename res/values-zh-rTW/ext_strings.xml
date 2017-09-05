@@ -66,12 +66,12 @@
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
-  <string name="preferred_network_mode_evdo_only_choice">僅限 EvDo</string>
+  <string name="preferred_network_mode_evdo_only_choice">僅使用 EvDo</string>
   <string name="preferred_network_mode_cdma_wo_evdo_choice">有 CDMA (無 EvDo)</string>
   <string name="preferred_network_mode_cdma_evdo_auto_choice">自動 CDMA/EvDo</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">自動 GSM/WCDMA</string>
-  <string name="preferred_network_mode_wcdma_only_choice">僅限 WCDMA</string>
-  <string name="preferred_network_mode_gsm_only_choice">僅限 GSM</string>
+  <string name="preferred_network_mode_wcdma_only_choice">僅使用 WCDMA</string>
+  <string name="preferred_network_mode_gsm_only_choice">僅使用 GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA 優先</string>
   <string name="msim_mobile_network_settings_title">Sim 卡 %d 行動網路設定</string>
   <!-- Permission to modify network mode via intent -->
@@ -81,4 +81,7 @@
   <string name="choose_network_mode_title">選擇網路模式</string>
   <string name="choose_network_mode_system_default">系統預設</string>
   <string name="cdma_call_settings">CDMA 通話設定</string>
+  <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">已連線識別</string>
+  <string name="connected_line_identification_summary">如果對方號碼不在通話紀錄中顯示，停用此選項</string>
 </resources>

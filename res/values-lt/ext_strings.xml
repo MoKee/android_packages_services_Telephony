@@ -58,7 +58,6 @@
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA / WCDMA</string>
   <string name="preferred_network_mode_td_scdma_only_choice">Tik TD-SCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE / WCDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_global_choice">Pasaulinis</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM / WCDMA / LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE / EvDo</string>
@@ -73,4 +72,5 @@
   <string name="msim_mobile_network_settings_title">SIM %d mobiliojo tinklo nustatymai</string>
   <!-- Permission to modify network mode via intent -->
   <!-- Network mode picker dialog title -->
+  <!-- Mobile network settings, COLP -->
 </resources>

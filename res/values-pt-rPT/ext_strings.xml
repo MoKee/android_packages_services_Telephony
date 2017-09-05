@@ -50,26 +50,8 @@
   <!-- Toast text for incoming call connected through ECT -->
   <string name="call_notif_callconnectedect">Chamada realizada através da transferência explícita de chamadas</string>
   <!-- Mobile network settings, preferred network modes -->
-  <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EvDo</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EvDo</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_gsm_lte_choice">TD-SCDMA/GSM/LTE</string>
-  <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
-  <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
-  <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
   <string name="preferred_network_mode_td_scdma_only_choice">Só TD-SCDMA</string>
-  <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE</string>
-  <string name="preferred_network_mode_global_choice">Global</string>
-  <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
-  <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_evdo_only_choice">Só EvDo</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
-  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
   <string name="preferred_network_mode_wcdma_only_choice">Só WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">Só GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferida</string>
@@ -81,4 +63,5 @@
   <string name="choose_network_mode_title">Escolher o modo de rede</string>
   <string name="choose_network_mode_system_default">Padrão do sistema</string>
   <string name="cdma_call_settings">Definições de chamadas CDMA</string>
+  <!-- Mobile network settings, COLP -->
 </resources>
