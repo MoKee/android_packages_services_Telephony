@@ -69,4 +69,6 @@
   <string name="choose_network_mode_system_default">По умолчанию (системн.)</string>
   <string name="cdma_call_settings">Настройки вызовов CDMA</string>
   <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">Идентификация подключения</string>
+  <string name="connected_line_identification_summary">Отключите эту опцию, если номера получателей не отображаются в истории вызовов</string>
 </resources>
