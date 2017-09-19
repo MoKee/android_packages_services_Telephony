@@ -82,6 +82,6 @@
   <string name="choose_network_mode_system_default">Predvolené systémom</string>
   <string name="cdma_call_settings">Nastavení hovorov CDMA</string>
   <!-- Mobile network settings, COLP -->
-  <string name="connected_line_identification_title">Identifikácia linky</string>
-  <string name="connected_line_identification_summary">Zakážte túto funkciu, ak sa v histórii hovorov nezobrazujú telefónne čísla volaných alebo volajúcich</string>
+  <string name="connected_line_identification_title">Identifikácia pripojenej linky</string>
+  <string name="connected_line_identification_summary">Zakážte túto možnosť, ak sa čísla účastníkov nezobrazia v histórii hovoru</string>
 </resources>

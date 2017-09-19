@@ -46,9 +46,9 @@
   <!-- Toast text for incoming call forward check received -->
   <string name="call_notif_forwardcheckreceived">通話已轉接</string>
   <!-- Toast text for incoming call connecting through ECT -->
-  <string name="call_notif_callconnectingect">致電正透過顯式的來電轉接進行連接</string>
+  <string name="call_notif_callconnectingect">正由轉接系統轉接通話</string>
   <!-- Toast text for incoming call connected through ECT -->
-  <string name="call_notif_callconnectedect">致電已透過顯式的來電轉接進行連接</string>
+  <string name="call_notif_callconnectedect">通話已由轉接系統轉接</string>
   <!-- Mobile network settings, preferred network modes -->
   <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EvDo</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EvDo</string>
@@ -68,8 +68,8 @@
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_evdo_only_choice">僅限 EvDo</string>
   <string name="preferred_network_mode_cdma_wo_evdo_choice">有 CDMA (無 EvDo)</string>
-  <string name="preferred_network_mode_cdma_evdo_auto_choice">自動 CDMA/EvDo</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto_choice">自動 GSM/WCDMA</string>
+  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo 自動</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA 自動</string>
   <string name="preferred_network_mode_wcdma_only_choice">僅限 WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">僅限 GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA 優先</string>
