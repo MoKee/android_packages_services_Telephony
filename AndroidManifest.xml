@@ -170,6 +170,8 @@
     <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
     <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
 
+    <uses-permission android:name="mokee.permission.WRITE_SECURE_SETTINGS" />
+
     <application android:name="PhoneApp"
             android:persistent="true"
             android:label="@string/phoneAppLabel"
