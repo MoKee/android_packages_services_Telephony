@@ -19,7 +19,7 @@
   <!-- Advanced Settings -->
   <string name="incall_screen_settings">Configurações da tela de chamada</string>
   <string name="show_ssn_label">Notificação de eventos</string>
-  <string name="show_ssn_summary">Mostrar uma notificação para vários eventos de rede relacionados ao tratamento de chamadas</string>
+  <string name="show_ssn_summary">Mostrar uma notificação para vários eventos de rede móvel relacionados ao tratamento de chamadas</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
   <string name="call_notif_unconditionalCF">Reencaminhamento incondicional de chamada ativo</string>
@@ -28,13 +28,13 @@
   <!-- Toast text for a forwarded MO call  -->
   <string name="call_notif_MOcall_forwarding">A chamada efetuada foi reencaminhada</string>
   <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
-  <string name="call_notif_cugcall">Chamada em grupo de usuários fechado</string>
+  <string name="call_notif_cugcall">Chamada em grupo fechado de usuários</string>
   <!-- In-call screen: status label when MO calls are barred -->
-  <string name="call_notif_outgoing_barred">Chamadas efetuadas barradas</string>
+  <string name="call_notif_outgoing_barred">Chamadas efetuadas impedidas</string>
   <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
-  <string name="call_notif_incoming_barred">Chamadas recebidas barradas na origem</string>
+  <string name="call_notif_incoming_barred">Chamadas recebidas impedidas na origem</string>
   <!-- Toast text for MO calls when CLIR Suppression is rejected -->
-  <string name="call_notif_clir_suppression_rejected">Ocultação do número foi rejeitada pela rede</string>
+  <string name="call_notif_clir_suppression_rejected">A ocultação do seu número foi rejeitada pela rede móvel</string>
   <!-- In-call screen: status label when MO call gets deflected to another party -->
   <string name="call_notif_call_deflected">Chamada encaminhada pela parte remota</string>
   <!-- Toast text for incoming call being forwarded to other remote party  -->
@@ -44,14 +44,14 @@
   <!-- Toast text for incoming call which is answered,put on hold & then released -->
   <string name="call_notif_callonhold_released">Chamada desligada remotamente</string>
   <!-- Toast text for incoming call forward check received -->
-  <string name="call_notif_forwardcheckreceived">Chamada foi encaminhada</string>
+  <string name="call_notif_forwardcheckreceived">A chamada foi encaminhada</string>
   <!-- Toast text for incoming call connecting through ECT -->
   <string name="call_notif_callconnectingect">Chamada conectando através de transferência de chamada explícita</string>
   <!-- Toast text for incoming call connected through ECT -->
   <string name="call_notif_callconnectedect">Chamada conectada através de transferência de chamada explícita</string>
   <!-- Mobile network settings, preferred network modes -->
-  <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EVDO</string>
+  <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EvDo</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EvDo</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
@@ -61,7 +61,7 @@
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
   <string name="preferred_network_mode_td_scdma_only_choice">Somente TD-SCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
-  <string name="preferred_network_mode_lte_choice">4G  LTE</string>
+  <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
@@ -75,10 +75,10 @@
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">Preferencialmente GSM/WCDMA</string>
   <string name="msim_mobile_network_settings_title">Configurações de rede móvel do SIM %d</string>
   <!-- Permission to modify network mode via intent -->
-  <string name="perm_change_mobile_network">alterar o modo de rede</string>
+  <string name="perm_change_mobile_network">alterar o modo de rede móvel</string>
   <string name="perm_change_mobile_network_desc">Permite que um aplicativo modifique o modo de rede atual.</string>
   <!-- Network mode picker dialog title -->
-  <string name="choose_network_mode_title">Escolha o modo de rede</string>
+  <string name="choose_network_mode_title">Escolha o modo de rede móvel</string>
   <string name="choose_network_mode_system_default">Padrão do sistema</string>
   <string name="cdma_call_settings">Configurações de chamadas CDMA</string>
   <!-- Mobile network settings, COLP -->
