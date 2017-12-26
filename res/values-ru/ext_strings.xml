@@ -62,7 +62,7 @@
   <string name="preferred_network_mode_td_scdma_only_choice">Только TD-SCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
-  <string name="preferred_network_mode_global_choice">Глобальный</string>
+  <string name="preferred_network_mode_global_choice">Международные сети</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA и LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
@@ -72,16 +72,16 @@
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA (авторежим)</string>
   <string name="preferred_network_mode_wcdma_only_choice">Только WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">Только GSM</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/предпочт. WCDMA</string>
-  <string name="msim_mobile_network_settings_title">Настройки мобильной сети SIM %d</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA (предпочтительно)</string>
+  <string name="msim_mobile_network_settings_title">Параметры мобильной сети SIM %d</string>
   <!-- Permission to modify network mode via intent -->
-  <string name="perm_change_mobile_network">изменить режим сети</string>
+  <string name="perm_change_mobile_network">изменение режима сети</string>
   <string name="perm_change_mobile_network_desc">Приложение сможет изменять текущий режим сети.</string>
   <!-- Network mode picker dialog title -->
   <string name="choose_network_mode_title">Выбор режима сети</string>
   <string name="choose_network_mode_system_default">По умолчанию (системн.)</string>
   <string name="cdma_call_settings">Настройки вызовов CDMA</string>
   <!-- Mobile network settings, COLP -->
-  <string name="connected_line_identification_title">Идентификация абонента</string>
+  <string name="connected_line_identification_title">Идентификация соединительной линии</string>
   <string name="connected_line_identification_summary">Отключите этот параметр, если в истории вызовов не отображаются номера абонентов</string>
 </resources>
