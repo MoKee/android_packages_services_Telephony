@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
+  <string name="proximity_mode_title">I-on ang proximity sensor</string>
+  <string name="proximity_on_summary">Kapag sumagot ka ng isang tawag, naka-off ang screen upang i-save ang baterya.</string>
+  <string name="proximity_off_summary">Kapag sumagot ka ng isang tawag, laging naka-on ang screen.</string>
 </resources>

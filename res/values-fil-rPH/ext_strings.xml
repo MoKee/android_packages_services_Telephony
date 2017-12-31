@@ -17,23 +17,71 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Advanced Settings -->
+  <string name="incall_screen_settings">Mga setting ng in-call screen</string>
+  <string name="show_ssn_label">Notification ng kaganapan</string>
+  <string name="show_ssn_summary">Magpakita ng notipikasyon para sa iba\'t ibang mga kaganapan sa network na may kaugnayan sa paghawak ng tawag</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
+  <string name="call_notif_unconditionalCF">Aktibo ang pag-forward ng walang pasubali na tawag</string>
   <!-- Toast text for Conditional Call Forwarding enabled  -->
+  <string name="call_notif_conditionalCF">Aktibo ang nagpapatuloy na aktibong tawag</string>
   <!-- Toast text for a forwarded MO call  -->
+  <string name="call_notif_MOcall_forwarding">Ang outgoing call ay ipinasa</string>
   <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
+  <string name="call_notif_cugcall">Tumawag sa closed user group</string>
   <!-- In-call screen: status label when MO calls are barred -->
+  <string name="call_notif_outgoing_barred">Hinarang ang mga outgoing call</string>
   <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
+  <string name="call_notif_incoming_barred">Ang mga papasok na tawag ay hinarang sa malayong partido</string>
   <!-- Toast text for MO calls when CLIR Suppression is rejected -->
+  <string name="call_notif_clir_suppression_rejected">Ang sariling pagsupil ng numero ay tinanggihan ng network</string>
   <!-- In-call screen: status label when MO call gets deflected to another party -->
+  <string name="call_notif_call_deflected">Tumawag sa pamamagitan ng remote party</string>
   <!-- Toast text for incoming call being forwarded to other remote party  -->
+  <string name="call_notif_MTcall_forwarding">Ipapasa ang papasok na tawag</string>
   <!-- Toast text for incoming call which is part of MultiParty Call -->
+  <string name="call_notif_multipartycall">Multi-party na tawag</string>
   <!-- Toast text for incoming call which is answered,put on hold & then released -->
+  <string name="call_notif_callonhold_released">Ang tawag ay inilabas malayuan</string>
   <!-- Toast text for incoming call forward check received -->
+  <string name="call_notif_forwardcheckreceived">Naipasa ang tawag</string>
   <!-- Toast text for incoming call connecting through ECT -->
+  <string name="call_notif_callconnectingect">Ang tawag ay kumukonekta sa pamamagitan ng tahasang paglipat ng tawag</string>
   <!-- Toast text for incoming call connected through ECT -->
+  <string name="call_notif_callconnectedect">Ang tawag ay konektado sa pamamagitan ng tahasang paglipat ng tawag</string>
   <!-- Mobile network settings, preferred network modes -->
+  <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EvDo</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EvDo</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_gsm_lte_choice">TD-SCDMA/GSM/LTE</string>
+  <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
+  <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
+  <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA lamang</string>
+  <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
+  <string name="preferred_network_mode_lte_choice">LTE</string>
+  <string name="preferred_network_mode_global_choice">Global</string>
+  <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
+  <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_evdo_only_choice">EvDo lamang</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
+  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
+  <string name="preferred_network_mode_wcdma_only_choice">WCDMA lamang</string>
+  <string name="preferred_network_mode_gsm_only_choice">GSM lamang</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA ginusto</string>
+  <string name="msim_mobile_network_settings_title">SIM %d mga setting ng mobile network</string>
   <!-- Permission to modify network mode via intent -->
+  <string name="perm_change_mobile_network">baguhin ang mode ng network</string>
+  <string name="perm_change_mobile_network_desc">Pinapayagan ang isang app na baguhin ang kasalukuyang mode ng network.</string>
   <!-- Network mode picker dialog title -->
+  <string name="choose_network_mode_title">Piliin ang mode ng network</string>
+  <string name="choose_network_mode_system_default">Default na System</string>
+  <string name="cdma_call_settings">Mga setting ng tawag sa CDMA</string>
   <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">Pagkakakilanlan ng nakakonektang linya</string>
+  <string name="connected_line_identification_summary">Huwag paganahin ang pagpipiliang ito kung ang mga numero ng mga tatanggap ay hindi lalabas sa kasaysayan ng tawag</string>
 </resources>
