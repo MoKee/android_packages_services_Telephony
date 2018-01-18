@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Advanced Settings -->
+  <string name="show_ssn_summary">Magpakita ng notification para sa iba\'t ibang mga network events na naaayon sa call handling</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
   <!-- Toast text for Conditional Call Forwarding enabled  -->
@@ -34,6 +35,8 @@
   <!-- Toast text for incoming call connected through ECT -->
   <!-- Mobile network settings, preferred network modes -->
   <!-- Permission to modify network mode via intent -->
+  <string name="perm_change_mobile_network_desc">Nagpapahintulot sa isang app na baguhin ang kasalukuyang network mode.</string>
   <!-- Network mode picker dialog title -->
+  <string name="choose_network_mode_title">Pumili ng network mode</string>
   <!-- Mobile network settings, COLP -->
 </resources>
