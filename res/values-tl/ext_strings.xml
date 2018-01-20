@@ -34,9 +34,14 @@
   <!-- Toast text for incoming call connecting through ECT -->
   <!-- Toast text for incoming call connected through ECT -->
   <!-- Mobile network settings, preferred network modes -->
+  <string name="preferred_network_mode_evdo_only_choice">EvDo lamang</string>
+  <string name="preferred_network_mode_wcdma_only_choice">WCDMA lamang</string>
+  <string name="preferred_network_mode_gsm_only_choice">GSM lamang</string>
   <!-- Permission to modify network mode via intent -->
+  <string name="perm_change_mobile_network">baguhin ang network mode</string>
   <string name="perm_change_mobile_network_desc">Nagpapahintulot sa isang app na baguhin ang kasalukuyang network mode.</string>
   <!-- Network mode picker dialog title -->
   <string name="choose_network_mode_title">Pumili ng network mode</string>
   <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_summary">I-disable ang option na ito kung ang mga numero ng mga tatanggap ay hindi makita sa call history</string>
 </resources>
