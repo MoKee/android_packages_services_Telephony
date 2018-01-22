@@ -43,5 +43,6 @@
   <!-- Network mode picker dialog title -->
   <string name="choose_network_mode_title">Pumili ng network mode</string>
   <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">Naka-konekta na linya ng pagkakakilanlan</string>
   <string name="connected_line_identification_summary">I-disable ang option na ito kung ang mga numero ng mga tatanggap ay hindi makita sa call history</string>
 </resources>
