@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="preferred_network_mode_choices_lineage" translatable="false">
+    <string-array name="preferred_network_mode_choices_mk" translatable="false">
         <item>@string/preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice </item>
         <item>@string/preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice</item>
         <item>@string/preferred_network_mode_td_scdma_gsm_wcdma_lte_choice</item>
