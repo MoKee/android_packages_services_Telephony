@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings, preferred network modes -->
+  <string name="preferred_network_mode_lte_choice">4G</string>
   <string name="preferred_network_mode_evdo_only_choice">doar EvDo</string>
   <string name="preferred_network_mode_wcdma_only_choice">doar WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">doar GSM</string>
