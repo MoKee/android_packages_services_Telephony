@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Advanced Settings -->
-  <string name="incall_screen_settings">Cài đặt màn hình trong cuộc gọi</string>
+  <string name="incall_screen_settings">Cài đặt màn hình cuộc gọi</string>
   <string name="show_ssn_label">Thông báo sự kiện</string>
   <string name="show_ssn_summary">Hiện thông báo cho các sự kiện mạng khác nhau liên quan đến xử lí cuộc gọi</string>
   <!-- Toasts for various transient network events -->

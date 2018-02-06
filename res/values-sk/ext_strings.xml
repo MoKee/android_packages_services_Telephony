@@ -19,7 +19,7 @@
   <!-- Advanced Settings -->
   <string name="incall_screen_settings">Nastavenia obrazovky hovoru</string>
   <string name="show_ssn_label">Oznámenia o udalostiach</string>
-  <string name="show_ssn_summary">Zobraziť oznámenia na rôzne udalosti siete, ktoré súvisia s hovormi</string>
+  <string name="show_ssn_summary">Zobraziť upozornenia na rôzne udalosti siete, ktoré súvisia s hovormi</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
   <string name="call_notif_unconditionalCF">Nepodmienené presmerovanie hovorov aktívne</string>
