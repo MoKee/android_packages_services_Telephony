@@ -18,6 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity Mode -->
   <string name="proximity_mode_title">Cho phép cảm biến tiệm cận</string>
-  <string name="proximity_on_summary">Khi bạn trả lời cuộc gọi, màn hình sẽ tắt để tiết kiệm năng lượng.</string>
-  <string name="proximity_off_summary">Khi bạn trả lời cuộc gọi, màn hình sẽ tắt để tiết kiệm năng lượng.</string>
+  <string name="proximity_on_summary">Khi bạn trả lời cuộc gọi, màn hình sẽ tắt.</string>
+  <string name="proximity_off_summary">Khi bạn trả lời cuộc gọi, màn hình sẽ tắt để tiết kiệm pin.</string>
 </resources>
