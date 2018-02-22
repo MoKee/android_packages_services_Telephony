@@ -17,6 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Advanced Settings -->
+  <string name="incall_screen_settings">Tabing tagpuan ay tumawag</string>
+  <string name="show_ssn_label">Kaganapan at paunawa</string>
   <string name="show_ssn_summary">Magpakita ng notification para sa iba\'t ibang mga network events na naaayon sa call handling</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
