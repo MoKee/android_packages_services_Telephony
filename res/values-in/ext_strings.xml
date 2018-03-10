@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Advanced Settings -->
-  <string name="incall_screen_settings">Pengaturan layar panggilan</string>
-  <string name="show_ssn_label">Pemberitahuan acara</string>
+  <string name="incall_screen_settings">Setelan panggilan dalam layar</string>
+  <string name="show_ssn_label">Notifikasi acara</string>
   <string name="show_ssn_summary">Tampilkan notifikasi untuk berbagai acara jaringan yang terkait penangangan panggilan</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
@@ -73,12 +73,12 @@
   <string name="preferred_network_mode_wcdma_only_choice">Hanya WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">Hanya GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA diutamakan</string>
-  <string name="msim_mobile_network_settings_title">Pengaturan jaringan seluler SIM %d</string>
+  <string name="msim_mobile_network_settings_title">Setelan jaringan seluler SIM %d</string>
   <!-- Permission to modify network mode via intent -->
-  <string name="perm_change_mobile_network">mengubah modus jaringan</string>
+  <string name="perm_change_mobile_network">rubah mode jaringan</string>
   <string name="perm_change_mobile_network_desc">Memperbolehkan aplikasi untuk mengubah modus jariangan saat ini</string>
   <!-- Network mode picker dialog title -->
-  <string name="choose_network_mode_title">Pilih modus jaringan</string>
+  <string name="choose_network_mode_title">Pilih mode jaringan</string>
   <string name="choose_network_mode_system_default">Sistem standar</string>
   <string name="cdma_call_settings">Setelan panggilan CDMA</string>
   <!-- Mobile network settings, COLP -->
