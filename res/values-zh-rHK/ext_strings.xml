@@ -27,12 +27,12 @@
   <string name="preferred_network_mode_td_scdma_only_choice">僅 TD-SCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
-  <string name="preferred_network_mode_global_choice">全球</string>
+  <string name="preferred_network_mode_global_choice">全球模式</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_evdo_only_choice">僅 EvDo</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">有 CDMA (無 EvDo)</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA (無 EvDo)</string>
   <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo 自動</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA 自動</string>
   <string name="preferred_network_mode_wcdma_only_choice">僅 WCDMA</string>
