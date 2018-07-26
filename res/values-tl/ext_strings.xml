@@ -37,4 +37,37 @@
   <string name="preferred_network_mode_wcdma_only_choice">WCDMA lamang</string>
   <string name="preferred_network_mode_gsm_only_choice">GSM lamang</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA ginusto</string>
+  <!-- Advanced Settings -->
+  <string name="incall_screen_settings">Tabing tagpuan ay tumawag</string>
+  <string name="show_ssn_label">Kaganapan at paunawa</string>
+  <string name="show_ssn_summary">Magpakita ng notification para sa iba\'t ibang mga network events na naaayon sa call handling</string>
+  <!-- Toasts for various transient network events -->
+  <!-- Toast text for Unconditional Call Forwarding enabled  -->
+  <string name="call_notif_unconditionalCF">Walang pasubali ang tawag sa pagpapasa aktibo</string>
+  <!-- Toast text for Conditional Call Forwarding enabled  -->
+  <string name="call_notif_conditionalCF">Kondisyonal na tumawag sa tulungan na pagaktibo</string>
+  <!-- Toast text for a forwarded MO call  -->
+  <string name="call_notif_MOcall_forwarding">Ipinapasa ang papalabas na tawag</string>
+  <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
+  <string name="call_notif_cugcall">Tumawag sa gumagamit na saradong pangkat</string>
+  <!-- In-call screen: status label when MO calls are barred -->
+  <string name="call_notif_outgoing_barred">Ang mga papalabas na tawag ay hinarang</string>
+  <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
+  <string name="call_notif_incoming_barred">Ang mga papasok na tawag ay hinarang sa malayong partido</string>
+  <!-- Toast text for MO calls when CLIR Suppression is rejected -->
+  <string name="call_notif_clir_suppression_rejected">Ang sariling pagsupil ng numero ay tinanggihan ng network</string>
+  <!-- In-call screen: status label when MO call gets deflected to another party -->
+  <string name="call_notif_call_deflected">Tumawag sa pamamagitan ng pangkat sa malayo</string>
+  <!-- Toast text for incoming call being forwarded to other remote party  -->
+  <string name="call_notif_MTcall_forwarding">Ipapasa ang papasok na tawag</string>
+  <!-- Toast text for incoming call which is part of MultiParty Call -->
+  <string name="call_notif_multipartycall">Marameng panig sa tawag</string>
+  <!-- Toast text for incoming call which is answered,put on hold & then released -->
+  <string name="call_notif_callonhold_released">Ang tawag ay inilabas mula sa malayo</string>
+  <!-- Toast text for incoming call forward check received -->
+  <string name="call_notif_forwardcheckreceived">Naipasa ang tawag</string>
+  <!-- Toast text for incoming call connecting through ECT -->
+  <string name="call_notif_callconnectingect">Tumawag sa pagkonekta sa pamamagitan ng tahasang paglipat ng tawag</string>
+  <!-- Toast text for incoming call connected through ECT -->
+  <string name="call_notif_callconnectedect">Tawagan ang konektado sa pamamagitan ng tahasang paglipat ng tawag</string>
 </resources>
