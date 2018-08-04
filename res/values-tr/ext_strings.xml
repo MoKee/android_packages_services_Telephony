@@ -54,15 +54,15 @@
   <!-- In-call screen: status label when MO calls are barred -->
   <string name="call_notif_outgoing_barred">Giden çağrılar yasaklanmış</string>
   <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
-  <string name="call_notif_incoming_barred">Uzak tarafta gelen aramalar yasaklanmış</string>
+  <string name="call_notif_incoming_barred">Uzak taraftan gelen aramalar yasaklanmış</string>
   <!-- Toast text for MO calls when CLIR Suppression is rejected -->
   <string name="call_notif_clir_suppression_rejected">Kendi numaranızı gizlemek ağ tarafından reddedildi</string>
   <!-- In-call screen: status label when MO call gets deflected to another party -->
-  <string name="call_notif_call_deflected">Uzak taraf tarafından arama yönlendirildi</string>
+  <string name="call_notif_call_deflected">Uzak taraftan arama yönlendirildi</string>
   <!-- Toast text for incoming call being forwarded to other remote party  -->
   <string name="call_notif_MTcall_forwarding">Gelen arama yönlendirildi</string>
   <!-- Toast text for incoming call which is part of MultiParty Call -->
-  <string name="call_notif_multipartycall">Çoklu çağrı</string>
+  <string name="call_notif_multipartycall">Çok taraflı arama</string>
   <!-- Toast text for incoming call which is answered,put on hold & then released -->
   <string name="call_notif_callonhold_released">Görüşmeye geri dönüldü</string>
   <!-- Toast text for incoming call forward check received -->
