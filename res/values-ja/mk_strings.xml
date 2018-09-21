@@ -19,4 +19,5 @@
   <!-- Proximity Mode -->
   <string name="proximity_mode_title">近接センサーを有効化</string>
   <string name="proximity_on_summary">通話に応答すると電力を節約するために画面がオフになります</string>
+  <string name="proximity_off_summary">通話に応答すると常に画面がオンになります</string>
 </resources>
