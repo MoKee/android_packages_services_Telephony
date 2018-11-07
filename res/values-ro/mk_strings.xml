@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Proximity Mode -->
-  <string name="proximity_mode_title">Activează senzorul de proximitate</string>
-  <string name="proximity_on_summary">Când răspunzi la apel, ecranul va fi oprit pentru a economisi energie.</string>
-  <string name="proximity_off_summary">Când răspunzi la apel, ecranul va fi pornit mereu.</string>
+    <!-- Proximity Mode -->
+    <string name="proximity_mode_title">Activează senzorul de proximitate</string>
+    <string name="proximity_on_summary">Când răspunzi la apel, ecranul va fi oprit pentru a economisi energie.</string>
+    <string name="proximity_off_summary">Când răspunzi la apel, ecranul va fi pornit mereu.</string>
 </resources>

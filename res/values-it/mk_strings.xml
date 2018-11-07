@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Proximity Mode -->
-  <string name="proximity_mode_title">Attivare il sensore di prossimità</string>
-  <string name="proximity_on_summary">Quando si risponde a una chiamata, lo schermo si spegne per risparmiare energia.</string>
-  <string name="proximity_off_summary">Quando si risponde a una chiamata, lo schermo verrà acceso sempre.</string>
+    <!-- Proximity Mode -->
+    <string name="proximity_mode_title">Attivare il sensore di prossimità</string>
+    <string name="proximity_on_summary">Quando si risponde a una chiamata, lo schermo si spegne per risparmiare energia.</string>
+    <string name="proximity_off_summary">Quando si risponde a una chiamata, lo schermo verrà acceso sempre.</string>
 </resources>

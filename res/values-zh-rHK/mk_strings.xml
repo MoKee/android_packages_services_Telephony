@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Proximity Mode -->
-  <string name="proximity_mode_title">開啟距離感應器</string>
-  <string name="proximity_on_summary">接聽電話時關閉畫面以節省電量。</string>
-  <string name="proximity_off_summary">接聽電話時畫面保持開啟狀態。</string>
+    <!-- Proximity Mode -->
+    <string name="proximity_mode_title">開啟距離感應器</string>
+    <string name="proximity_on_summary">接聽電話時關閉畫面以節省電量。</string>
+    <string name="proximity_off_summary">接聽電話時畫面保持開啟狀態。</string>
 </resources>

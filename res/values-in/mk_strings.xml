@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Proximity Mode -->
-  <string name="proximity_mode_title">Hidupkan sensor jarak</string>
-  <string name="proximity_on_summary">Ketika anda menjawab telepon, layar akan dimatikan untuk menghemat daya.</string>
-  <string name="proximity_off_summary">Ketika anda menjawab telepon, layar akan dimatikan untuk menghemat daya.</string>
+    <!-- Proximity Mode -->
+    <string name="proximity_mode_title">Hidupkan sensor jarak</string>
+    <string name="proximity_on_summary">Ketika anda menjawab telepon, layar akan dimatikan untuk menghemat daya.</string>
+    <string name="proximity_off_summary">Ketika anda menjawab telepon, layar akan dimatikan untuk menghemat daya.</string>
 </resources>

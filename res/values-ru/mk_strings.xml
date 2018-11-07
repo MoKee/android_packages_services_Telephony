@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Proximity Mode -->
-  <string name="proximity_mode_title">Включить датчик приближения</string>
-  <string name="proximity_on_summary">При ответе на вызов, экран будет отключен для экономии энергии.</string>
-  <string name="proximity_off_summary">При ответе на вызов, экран будет оставаться включенным.</string>
+    <!-- Proximity Mode -->
+    <string name="proximity_mode_title">Включить датчик приближения</string>
+    <string name="proximity_on_summary">При ответе на вызов, экран будет отключен для экономии энергии.</string>
+    <string name="proximity_off_summary">При ответе на вызов, экран будет оставаться включенным.</string>
 </resources>
