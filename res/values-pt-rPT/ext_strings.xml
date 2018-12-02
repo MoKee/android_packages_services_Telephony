@@ -16,7 +16,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Mobile network settings, preferred network modes -->
     <string name="preferred_network_mode_td_scdma_only_choice">Só TD-SCDMA</string>
+    <string name="preferred_network_mode_lte_choice">LTE</string>
     <string name="preferred_network_mode_evdo_only_choice">Só EvDo</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA automático</string>
     <string name="preferred_network_mode_wcdma_only_choice">Só WCDMA</string>
     <string name="preferred_network_mode_gsm_only_choice">Só GSM</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferida</string>
