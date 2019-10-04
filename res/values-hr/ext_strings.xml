@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="preferred_network_mode_td_scdma_only_choice">Samo TD-SCDMA</string>
+    <string name="preferred_network_mode_lte_choice">LTE</string>
     <string name="preferred_network_mode_global_choice">Globalno</string>
     <string name="preferred_network_mode_evdo_only_choice">Samo EvDo</string>
     <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo automatski</string>
